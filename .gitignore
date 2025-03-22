@@ -1,0 +1,6 @@
+.pio/
+.gitignore
+__pycache__/
+.build/
+.vscode/
+!.vscode/extensions.json
