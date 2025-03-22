@@ -1,4 +1,4 @@
-# SeniorDesign
+# Embedded Code
 
 # Install the following vscode extensions
 --required: 
