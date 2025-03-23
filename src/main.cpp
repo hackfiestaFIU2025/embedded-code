@@ -57,7 +57,8 @@ void loop() {
         http.addHeader("Accept", "*/*");
         http.addHeader("Connection", "keep-alive"); 
         int code = http.PUT(buffer);
-        String payload = http.getString();  
+        String payload = http.getString();
+        Serial.println(code);  
         http.end();
     }
     delay(5000);
